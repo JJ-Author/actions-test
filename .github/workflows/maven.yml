@@ -17,7 +17,8 @@ jobs:
       run: mvn --version
     - name: Run a multi-line script
       run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+        echo Hello World!
+        echo First test with Maven Action
+        sudo apt-get -y install screenfetch
+        screenfetch
         bash --version
-        mvn --version
