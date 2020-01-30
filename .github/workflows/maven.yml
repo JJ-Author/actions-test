@@ -21,4 +21,5 @@ jobs:
         echo First test with Maven Action
         sudo apt-get -y install screenfetch
         screenfetch
+        df -h
         bash --version
